@@ -21,6 +21,8 @@ class TreeNode:
         self.left = left
         self.right = right
 '''
+
+
 # 递归实现
 class Solution:
     def postorderTraversal(self, root: TreeNode) -> List[int]:
@@ -34,3 +36,5 @@ class Solution:
         res = list()
         postorder(root)
         return res
+
+# 迭代
